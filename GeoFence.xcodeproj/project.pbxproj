@@ -15,6 +15,8 @@
 		46912E772368FA1300161A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46912E762368FA1300161A86 /* Assets.xcassets */; };
 		46912E7A2368FA1300161A86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46912E782368FA1300161A86 /* LaunchScreen.storyboard */; };
 		46912E7D2368FA1300161A86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46912E7C2368FA1300161A86 /* main.m */; };
+		46912E852368FCDA00161A86 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46912E842368FCDA00161A86 /* CoreLocation.framework */; };
+		46912E872368FCE700161A86 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46912E862368FCE700161A86 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		46912E792368FA1300161A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46912E7B2368FA1300161A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46912E7C2368FA1300161A86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46912E842368FCDA00161A86 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		46912E862368FCE700161A86 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46912E852368FCDA00161A86 /* CoreLocation.framework in Frameworks */,
+				46912E872368FCE700161A86 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +55,7 @@
 			children = (
 				46912E662368FA1200161A86 /* GeoFence */,
 				46912E652368FA1200161A86 /* Products */,
+				46912E832368FCDA00161A86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +84,15 @@
 				46912E732368FA1200161A86 /* GeoFence.xcdatamodeld */,
 			);
 			path = GeoFence;
+			sourceTree = "<group>";
+		};
+		46912E832368FCDA00161A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46912E862368FCE700161A86 /* CoreData.framework */,
+				46912E842368FCDA00161A86 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
